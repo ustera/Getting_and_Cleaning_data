@@ -15,3 +15,7 @@
 **7 step** - create new data set from **step 6**, count the average of each variable for each activity and each subject in new dataset and use pivot wider
 
 **8 step** - write in new file the dataset from **step 7**
+
+# Script that does this
+
+[Script](run_analisys.R)
