@@ -51,4 +51,4 @@ dataset2 %>%
   summarise(mean_value = mean(value)) %>% 
   tidyr::pivot_wider(names_from = variable, values_from = mean_value)-> dataset2
 
-fwrite(x = dataset2, file = 'Dataset.txt')
+write.table(x = dataset2, file = 'Dataset.txt', row.name=FALSE)
