@@ -18,4 +18,4 @@
 
 # Script that does this
 
-[Script](run_analisys.R)
+[Script](run_analysis.R)
